@@ -14,27 +14,33 @@ const CreativeInfo = () => {
             <div className="creative__body">
                 <div className="creative__menu">
                     {
-                        !openMenu ? <img src={menuIcon2} alt="" style={{ background: "#222222", borderRadius:"24px"}} onClick={() => setOpenMenu(true)} /> : <img src={menuIcon} alt="" onClick={() => setOpenMenu(false)} />
+                        !openMenu ? <img src={menuIcon2} alt="" style={{ background: "#222222", borderRadius: "24px" }} onClick={() => setOpenMenu(true)} /> : <img src={menuIcon} alt="" onClick={() => setOpenMenu(false)} />
                     }
                 </div>
                 {
                     !openMenu ? (<>
                         <div className="creative__info__main">
-                        <div className="company__info">
+                            <div className="company__info">
                                 Web Sitesi <span>Krc Medya Grup Yazılım Teknolojileri</span> tarafından yapılmaktadır.
                             </div>
+                            <div className="main__top">
+                                <p>44.Yıl</p>
+                                <p>DIGITAL EXPERIENCE <br />DESIGN STUDIO</p>
+                            </div>
+                            <img src={logo} alt="" />
+
                             <div className="info__title">
                                 Geçmişten Gümüze <br /><span>Lezzet Sofrası</span>
                             </div>
                             <div className="main__info">
-                            <p>Lezzet Sofrası Catering, 1980 yılında Bursa'da kurulmuş bir catering şirketidir. Müşterilerimize sağlıklı ve lezzetli yemekleri profesyonel bir şekilde sunma misyonuyla yola çıktık. Bugüne kadar edindiğimiz deneyim ve müşteri memnuniyeti odaklı hizmet anlayışımızla sektörde kendimize sağlam bir yer edindik.</p>
-                            <p>Catering hizmetlerimiz, davetlerinizde ve organizasyonlarınızda mükemmel bir deneyim yaşamanızı sağlamak için tasarlanmıştır. Geniş ekip kadromuz ile sizin için özenle seçilmiş lezzetli yemekleri sunmakla kalmaz, aynı zamanda etkinliğinizin her aşamasında size destek olur.</p>
-                            <p>Türk mutfağının zengin ve çeşitli lezzetlerini sunmanın yanı sıra, öğleden sonra tatlılarıyla da biliniriz. Misafirlerinizi memnun etmek için her zaman en kaliteli malzemeleri kullanırız.
-                                Müşteri memnuniyetini ön planda tutarak, engelsiz ulaşım imkanı sunarız ve ödeme seçenekleri arasında Mastercard, VISA ve nakit ödeme bulunur.</p>
-                            <p>Lezzet Sofrası Catering olarak, her etkinliğinizde unutulmaz bir deneyim yaşamanız için buradayız. Siz değerli müşterilerimizi sağlıklı ve lezzetli yemeklerle buluşturmak bizim için bir ayrıcalıktır.</p>
-                            <p>İletişim Bilgilerimiz</p>
-                            <p>Lezzet Sofrası Catering olarak her türlü geri bildirim ve önerinize değer veriyoruz.</p>
-                            
+                                <p>Lezzet Sofrası Catering, 1980 yılında Bursa'da kurulmuş bir catering şirketidir. Müşterilerimize sağlıklı ve lezzetli yemekleri profesyonel bir şekilde sunma misyonuyla yola çıktık. Bugüne kadar edindiğimiz deneyim ve müşteri memnuniyeti odaklı hizmet anlayışımızla sektörde kendimize sağlam bir yer edindik.</p>
+                                <p>Catering hizmetlerimiz, davetlerinizde ve organizasyonlarınızda mükemmel bir deneyim yaşamanızı sağlamak için tasarlanmıştır. Geniş ekip kadromuz ile sizin için özenle seçilmiş lezzetli yemekleri sunmakla kalmaz, aynı zamanda etkinliğinizin her aşamasında size destek olur.</p>
+                                <p>Türk mutfağının zengin ve çeşitli lezzetlerini sunmanın yanı sıra, öğleden sonra tatlılarıyla da biliniriz. Misafirlerinizi memnun etmek için her zaman en kaliteli malzemeleri kullanırız.
+                                    Müşteri memnuniyetini ön planda tutarak, engelsiz ulaşım imkanı sunarız ve ödeme seçenekleri arasında Mastercard, VISA ve nakit ödeme bulunur.</p>
+                                <p>Lezzet Sofrası Catering olarak, her etkinliğinizde unutulmaz bir deneyim yaşamanız için buradayız. Siz değerli müşterilerimizi sağlıklı ve lezzetli yemeklerle buluşturmak bizim için bir ayrıcalıktır.</p>
+                                <p>İletişim Bilgilerimiz</p>
+                                <p>Lezzet Sofrası Catering olarak her türlü geri bildirim ve önerinize değer veriyoruz.</p>
+
                             </div>
                             <div className="contact__card">
                                 <div className="card__left">
