@@ -1,0 +1,398 @@
+.creative__body {
+    display: flex;
+    height: 100vh;
+    gap: 54px;
+}
+
+.creative__body .creative__menu {
+    width: 70px;
+    background-color: #EEEEEE;
+    height: 100%;
+}
+
+.creative__body .creative__menu img {
+    margin-top: 23px;
+    margin-left: 12px;
+    width: 40px;
+    height: 24px;
+}
+
+.creative__body .creative__main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+.creative__body .creative__main .company__info,
+.creative__body .creative__info__main .company__info {
+    position: absolute;
+    bottom: 19px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.73px;
+    text-align: left;
+
+}
+
+.creative__body .creative__main .company__info span,
+.creative__body .creative__info__main .company__info span {
+    color: #DE2A1E;
+}
+
+.creative__body .creative__main .main__top {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.creative__body .creative__main .main__top p:first-child {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: #DE2A1E;
+
+}
+
+.creative__body .creative__main .main__top p:last-child {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+}
+
+.creative__body .creative__main .main__body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 91px;
+    align-items: center;
+}
+
+.creative__body .creative__main .main__body .main__body__left img {
+    margin-bottom: 44px;
+}
+
+.creative__body .creative__main .main__body .main__body__left p:nth-child(2) {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
+    color: #222222;
+    margin-bottom: 18px;
+}
+
+.creative__body .creative__main .main__body .main__body__left p:nth-child(2) span {
+    color: #DE2A1E;
+}
+
+.creative__body .creative__main .main__body .main__body__left p:nth-child(3) {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #222222;
+    margin-bottom: 30px;
+    width: 527px;
+}
+
+.creative__body .creative__main .main__body .main__body__left p:nth-child(4) {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #222222;
+    margin-bottom: 30px;
+    width: 527px;
+}
+
+
+.creative__body .creative__main .main__body .main__body__left .main__body__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 76px;
+    width: 469px;
+    height: 162px;
+    border-radius: 10px;
+    border-right: 0.5px solid #EEEEEE;
+    background: #EEEEEE;
+    padding: 20px 10px;
+    gap: 8px;
+}
+
+.creative__body .creative__main .main__body .main__body__left .main__body__card .card__right p:first-child {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+    color: #222222;
+}
+
+.creative__body .creative__main .main__body .main__body__left .main__body__card .card__right p:first-child span {
+    color: #DE2A1E;
+}
+
+.creative__body .creative__main .main__body .main__body__left .main__body__card .card__right p:last-child {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    text-align: left;
+}
+
+.creative__body .creative__main .main__body .main__body__right {
+    width: 376px;
+    display: flex;
+    flex-direction: column;
+}
+
+.creative__body .creative__main .main__body .main__body__right p:nth-child(1),
+.creative__body .creative__main .main__body .main__body__right p:nth-child(4) {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    text-align: left;
+    color: #222222;
+    margin: 44px 0 33px 0;
+}
+
+.creative__body .creative__main .main__body .main__body__right p:nth-child(2),
+.creative__body .creative__main .main__body .main__body__right p:nth-child(5) {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #222222;
+}
+
+.creative__body .creative__main .main__body .main__body__right p:nth-child(3),
+.creative__body .creative__main .main__body .main__body__right p:nth-child(6) {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #DE2A1E;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin-top: 20px;
+}
+
+
+.creative__body .creative__info__main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    margin-top: 88px;
+}
+
+.creative__body .creative__info__main .info__title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
+    color: #222222;
+    margin-bottom: 19px;
+}
+
+.creative__body .creative__info__main .info__title span {
+    color: #DE2A1E;
+}
+
+.creative__body .creative__info__main p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #222222;
+    width: 1269px;
+}
+
+.creative__body .creative__info__main .main__info p:nth-child(1) {
+    margin-bottom: 30px;
+}
+
+.creative__body .creative__info__main .main__info p:nth-child(3) {
+    margin-bottom: 30px;
+}
+
+.creative__body .creative__info__main .main__info p:nth-child(4) {
+    margin-bottom: 30px;
+}
+
+.creative__body .creative__info__main .main__info p:nth-child(5) {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31.2px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.creative__body .creative__info__main .main__info p:nth-child(6) {
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13.2px;
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+.creative__body .creative__info__main .contact__card {
+    display: flex;
+    gap: 59px;
+}
+
+.creative__body .creative__info__main .contact__card .card__left,
+.creative__body .creative__info__main .contact__card .card__right {
+    width: 379px;
+    height: 138px;
+}
+
+.creative__body .creative__info__main .contact__card .card__left p,
+.creative__body .creative__info__main .contact__card .card__right p {
+    width: 100%;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.creative__body .creative__info__main .contact__card .card__left p:first-child,
+.creative__body .creative__info__main .contact__card .card__right p:first-child {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    text-align: left;
+    color: #DE2A1E;
+    margin-bottom: 9px;
+}
+
+.creative__body .creative__info__main .contact__card .card__left p:last-child,
+.creative__body .creative__info__main .contact__card .card__right p:last-child {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #DE2A1E;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width:568px) {
+    .creative__body {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .creative__body .creative__menu {
+        background-color: transparent;
+        position: fixed;
+        z-index: 9999;
+        bottom: 70px;
+        right: 50px;
+        height: auto;
+    }
+    .creative__body .creative__menu img{
+        margin: 0;
+        width: 82px;
+        height: 49px;
+    }
+    .creative__body .creative__main {
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .creative__body .creative__main .main__top {
+        background-color: #fcfcfc;
+        padding: 32px 21px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .creative__body .creative__main .main__top p:last-child {
+        position: relative;
+        width: auto;
+        display: block;
+        margin: 0;
+    }
+
+    .creative__body .creative__main .main__body {
+        display: flex;
+        flex-direction: column;
+        padding: 0 22px 0 25px;
+        width: 100%;
+        align-items: flex-start;
+        margin-top: 41px;
+    }
+
+    .creative__body .creative__main .main__body .main__body__left img {
+        margin-bottom: 25px;
+    }
+
+    .creative__body .creative__main .main__body .main__body__left p:nth-child(2) {
+        width: 383px;
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+
+
+    .creative__body .creative__main .main__body .main__body__left p:nth-child(3),
+    .creative__body .creative__main .main__body .main__body__left p:nth-child(4) {
+        width: 386px;
+    }
+
+    .creative__body .creative__main .main__body .main__body__left .main__body__card {
+        width: 386px;
+        height: 162px;
+        border-bottom: 1px solid #DE2A1E;
+
+    }
+
+    .creative__body .creative__main .main__body .main__body__left .main__body__card .card__right p:first-child {
+        font-size: 12px;
+
+    }
+    .creative__body .creative__main .main__body .main__body__left .main__body__card .card__right p:last-child {
+        width: 272px;
+    }
+    .creative__body .creative__main .main__body .main__body__right {
+        width: 376px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .creative__body .creative__main .main__body .main__body__right p:nth-child(1),
+    .creative__body .creative__main .main__body .main__body__right p:nth-child(4) {
+        font-size: 18px;
+        color: #DE2A1E;
+        font-weight: 700;
+        margin-bottom: 12px;
+    }
+    
+    .creative__body .creative__main .main__body .main__body__right p:nth-child(2),
+    .creative__body .creative__main .main__body .main__body__right p:nth-child(5) {
+        font-size: 12px;
+        
+    }
+    .creative__body .creative__main .company__info,
+.creative__body .creative__info__main .company__info {
+   display: none;
+
+}
+   
+}
