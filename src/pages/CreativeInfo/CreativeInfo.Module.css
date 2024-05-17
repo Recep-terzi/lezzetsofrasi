@@ -410,7 +410,7 @@
 
     .creative__body .creative__main .main__body .main__body__left .main__body__card .card__right p:first-child {
         font-size: 12px;
-
+        width: 100%;
     }
 
     .creative__body .creative__main .main__body .main__body__left .main__body__card .card__right p:last-child {

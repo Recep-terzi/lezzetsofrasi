@@ -83,7 +83,7 @@ const CreativeInfo = () => {
                                         <div className="card__right">
                                             <p>Anlayışınız ve sabrınız için <span>teşekkür ederiz.</span><br />Yakında tekrar görüşmek üzere!
                                             </p>
-                                            <p>Yol tarifi almak veya adresimize ulaşmak için haritalardan destek alabilirsiniz. Tıklayınız.</p>
+                                            <p>Yol tarifi almak veya adresimize ulaşmak için haritalardan destek alabilirsiniz. <span style={{textDecoration:"underline",color:"inherit"}}>Tıklayınız.</span></p>
                                         </div>
                                     </div>
                                 </div>
