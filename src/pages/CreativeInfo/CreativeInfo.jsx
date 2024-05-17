@@ -14,7 +14,7 @@ const CreativeInfo = () => {
             <div className="creative__body">
                 <div className="creative__menu">
                     {
-                        !openMenu ? <img src={menuIcon2} alt="" style={{ background: "#222222", borderRadius: "24px" }} onClick={() => setOpenMenu(true)} /> : <img src={menuIcon} alt="" onClick={() => setOpenMenu(false)} />
+                        !openMenu ? <img src={menuIcon2} alt="" style={{cursor:"pointer",background: "#222222", borderRadius: "24px" }} onClick={() => setOpenMenu(true)} /> : <img src={menuIcon} alt="" onClick={() => setOpenMenu(false)} style={{cursor:"pointer"}}/>
                     }
                 </div>
                 {
