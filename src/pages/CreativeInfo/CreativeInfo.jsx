@@ -52,7 +52,7 @@ const CreativeInfo = () => {
                                 <div className="card__right">
                                     <p>Bize Yazın</p>
                                     <p>Soru, öneri ve talepleriniz için bize e-posta adresimizden ulaşabilirsiniz. Mesajlarınıza en geç 1 iş günü içerisinde dönüş yapıyoruz.</p>
-                                    <p><img src={emailIcon} alt="" /> info@siyamer.com</p>
+                                    <p><img src={emailIcon} alt="" /> info@lezzetsofrasicatering.com.tr</p>
                                 </div>
                             </div>
                         </div>

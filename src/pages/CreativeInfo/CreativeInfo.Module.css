@@ -437,6 +437,9 @@
         font-size: 12px;
 
     }
+    .creative__body .creative__main .main__body .main__body__right p:nth-child(6) {
+        margin-bottom: 50px;
+    }
 
     .creative__body .creative__main .company__info,
     .creative__body .creative__info__main .company__info {
