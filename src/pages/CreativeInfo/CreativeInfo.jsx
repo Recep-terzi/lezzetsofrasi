@@ -25,6 +25,7 @@ const CreativeInfo = () => {
                             </div>
                             <div className="main__top">
                                 <p>44.Yıl</p>
+                                <p className='welcome__message'>HOŞ GELDİNİZ!</p>
                                 <p>DIGITAL EXPERIENCE <br />DESIGN STUDIO</p>
                             </div>
                             <img src={logo} alt="" />
@@ -64,11 +65,12 @@ const CreativeInfo = () => {
                             </div>
                             <div className="main__top">
                                 <p>44.Yıl</p>
+                                <p className='welcome__message'>HOŞ GELDİNİZ!</p>
                                 <p>DIGITAL EXPERIENCE <br />DESIGN STUDIO</p>
                             </div>
                             <div className="main__body">
                                 <div className="main__body__left">
-                                    <img src={logo} alt="" />
+                                    <img src={logo} alt="" className='logo'/>
                                     <p>
                                         Sitemiz şu anda <span>yapım aşamasındadır.</span>
                                     </p>

@@ -40,6 +40,10 @@
     display: none;
 }
 
+.creative__body .creative__info__main .main__top .welcome__message,.creative__body .creative__main .main__top .welcome__message {
+    display: none;
+}
+
 .creative__body .creative__info__main img {
     display: none;
 }
@@ -88,9 +92,7 @@
     align-items: center;
 }
 
-.creative__body .creative__main .main__body .main__body__left img {
-    margin-bottom: 44px;
-}
+
 
 .creative__body .creative__main .main__body .main__body__left p:nth-child(2) {
     font-size: 48px;
@@ -99,6 +101,14 @@
     text-align: left;
     color: #222222;
     margin-bottom: 18px;
+}
+
+.creative__body .creative__main .main__body .main__body__left .main__body__card p:nth-child(2) {
+    margin-bottom: 0;
+}
+
+.creative__body .creative__main .main__body .main__body__left .logo {
+    margin-bottom: 44px;
 }
 
 .creative__body .creative__main .main__body .main__body__left p:nth-child(2) span {
@@ -146,6 +156,7 @@
     line-height: 18px;
     text-align: left;
     color: #222222;
+    margin-bottom: 7px;
 }
 
 .creative__body .creative__main .main__body .main__body__left .main__body__card .card__right p:first-child span {
@@ -327,6 +338,21 @@
         display: block;
     }
 
+    .creative__body .creative__main .main__top p:first-child,
+    .creative__body .creative__info__main .main__top p:first-child {
+        display: none;
+    }
+
+    .creative__body .creative__info__main .main__top .welcome__message,
+    .creative__body .creative__main .main__top .welcome__message {
+        display: block;
+        font-family: 'sans-serif';
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 14px;
+        text-align: left;
+    }
+
     .creative__body .creative__main .main__top,
     .creative__body .creative__info__main .main__top {
         background-color: #fcfcfc;
@@ -348,33 +374,42 @@
     .creative__body .creative__main .main__body {
         display: flex;
         flex-direction: column;
-        padding: 0 22px 0 25px;
-        width: 100%;
+        padding: 20;
         margin-top: 41px;
+        align-items: normal;
     }
 
     .creative__body .creative__main .main__body .main__body__left img {
-        margin-bottom: 25px;
+        padding: 0 22px;
     }
 
     .creative__body .creative__main .main__body .main__body__left p:nth-child(2) {
         width: 383px;
-        font-size: 36px;
+        font-size: 32px;
         line-height: 40px;
+        padding: 0 22px;
     }
 
-
+    .creative__body .creative__main .main__body .main__body__left p:nth-child(2) span {
+        white-space: nowrap;
+    }
 
     .creative__body .creative__main .main__body .main__body__left p:nth-child(3),
     .creative__body .creative__main .main__body .main__body__left p:nth-child(4) {
         width: 386px;
+        padding: 0 22px;
     }
 
     .creative__body .creative__main .main__body .main__body__left .main__body__card {
-        width: 386px;
-        height: 162px;
+        width: auto;
+        height: auto;
         border-bottom: 1px solid #DE2A1E;
+        margin: 0 22px;
+        gap: 0;
+    }
 
+    .creative__body .creative__main .main__body .main__body__left .main__body__card p {
+        padding: 0;
     }
 
     .creative__body .creative__main .main__body .main__body__left .main__body__card .card__right p:first-child {
@@ -390,6 +425,7 @@
         width: 376px;
         display: flex;
         flex-direction: column;
+        padding: 0 22px;
     }
 
     .creative__body .creative__main .main__body .main__body__right p:nth-child(1),
@@ -416,7 +452,8 @@
         margin-top: 0;
     }
 
-    .creative__body .creative__info__main .main__info, .creative__body .creative__info__main .contact__card {
+    .creative__body .creative__info__main .main__info,
+    .creative__body .creative__info__main .contact__card {
         padding: 26px;
     }
 
@@ -448,7 +485,8 @@
         flex-direction: column;
     }
 
-    .creative__body .creative__info__main .contact__card .card__left,.creative__body .creative__info__main .contact__card .card__right {
+    .creative__body .creative__info__main .contact__card .card__left,
+    .creative__body .creative__info__main .contact__card .card__right {
         width: 365px;
     }
 
